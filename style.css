@@ -9,8 +9,8 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    padding-left: 300px;
-    padding-right: 250px;
+    padding-left: 200px;
+    padding-right: 150px;
 }
 
 header {
@@ -63,7 +63,7 @@ a {
     width: 140px;
 }
 
-img {
+.hero-content img {
     width: 400px;
     height: 194px;
     flex: 0 0 auto;
@@ -97,16 +97,19 @@ img {
 
 .info {
     flex: 0 0 auto;
-    width: 300px;
+    width: 250px;
     padding: o;
     margin: 0;
 }
 
 .info img {
-    width: 300px;
+    border-color: #3882f6;
+    border-radius: 15px;
+    border-width: 4px;
+    border-style: solid;
 }
 
 .info p {
     font-size: 18px;
-    color: gray;
+    color: grey;
 }
